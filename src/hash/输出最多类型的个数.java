@@ -1,4 +1,4 @@
-package hw;
+package hash;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -16,7 +16,7 @@ public class 输出最多类型的个数 {
         scanner.close();
     }
     // ps：这道题我的理解是把输入的转为16进制，从后往前取依次取2位，如果16进制数长度大于8，取后8位，然后转为10进制相加，与基数取模。它的案列给得不清楚，不确定题目是不是这个意思。
-    // hw.输出最多类型的个数
+    // hash.输出最多类型的个数
     public static void test010() {
         Scanner sc = new Scanner(System.in);
         List<Integer> list = new ArrayList<>();

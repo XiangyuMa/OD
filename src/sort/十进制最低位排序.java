@@ -1,4 +1,4 @@
-package hw;
+package sort;
 
 import java.util.Arrays;
 import java.util.List;

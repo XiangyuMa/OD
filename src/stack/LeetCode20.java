@@ -1,4 +1,4 @@
-package hw;
+package stack;
 
 import java.util.Scanner;
 import java.util.Stack;
@@ -8,7 +8,7 @@ import java.util.Stack;
  * @description leetcode 20 括号匹配
  * @date: 2022/10/20 16:31
  */
-public class Main20 {
+public class LeetCode20 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         scanner.close();

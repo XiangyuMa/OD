@@ -1,4 +1,4 @@
-package hw;
+package hash;
 
 import java.util.HashMap;
 import java.util.Iterator;

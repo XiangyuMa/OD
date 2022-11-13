@@ -1,4 +1,4 @@
-package hw;/*
+package sort;/*
  给定一个射击比赛成绩单
  包含多个选手若干次射击的成绩分数
  请对每个选手按其最高三个分数之和进行降序排名
@@ -54,7 +54,7 @@ import java.util.stream.Collectors;
 /**
  * 参考链接 http://www.amoscloud.com/?p=3561
  */
-public class Main2000 {
+public class 射击成绩 {
 
 
     public static void main(String[] args) {

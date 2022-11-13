@@ -1,4 +1,4 @@
-package leetcode;
+package dfs;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;

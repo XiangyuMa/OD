@@ -1,4 +1,4 @@
-package hw;
+package hash;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -15,7 +15,7 @@ public class 剩余可用字符集 {
         scanner.close();
     }
     // 如果全量字符中有重复的，是相加还是取最后一个？？ 我做的是相加，如果取最后一个则先remove，在put，就能保证插入顺序
-    // hw.剩余可用字符集
+    // hash.剩余可用字符集
     // 解题思路：使用按插入顺序排列的LinkedHashMap来存储全量字符集，在减掉已用字符集
     public static void test063() {
         Scanner sc = new Scanner(System.in);

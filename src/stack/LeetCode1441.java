@@ -1,10 +1,13 @@
-package leetcode;
+package stack;
 
 import java.util.ArrayList;
 import java.util.List;
 
-
-public class Main10 {
+/**
+ * leetcode 1441
+ * 用栈操作构建数组
+ */
+public class LeetCode1441 {
     public static void main(String[] args) {
         int[] target = {1,2};
         int n = 4;
