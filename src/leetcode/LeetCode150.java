@@ -5,7 +5,7 @@ import java.util.Stack;
 /**
  * leetcode 150 逆波兰式求值 栈
  */
-public class Main6 {
+public class LeetCode150 {
     public static void main(String[] args) {
         String[]  tokens  = new String[]{"4","3","-"};
         System.out.println(evalRPN(tokens));

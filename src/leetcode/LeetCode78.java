@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * leetcode 78 子集
  */
-public class Main9 {
+public class LeetCode78 {
     public static void main(String[] args) {
        int[] nums = {1,2,4};
         System.out.println(subsets(nums));

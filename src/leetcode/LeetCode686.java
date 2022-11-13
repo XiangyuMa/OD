@@ -3,7 +3,7 @@ package leetcode;
 /**
  * leetcode 686. 重复叠加字符串匹配
  */
-public class Main300 {
+public class LeetCode686 {
     public static void main(String[] args) {
 
     }

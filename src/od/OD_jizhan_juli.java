@@ -1,13 +1,14 @@
-package leetcode;
+package od;
 
 import java.util.Scanner;
 
 /**
- * @author :马翔宇
- * @description
+ * @author :OD机考第三题
+ * @description 有几个基站 要从第一个基站走到最后一个然后再回到第一个基站  A基站到B基站的距离 和 B基站到A基站的距离不同
+ * 输出最小距离
  * @date: 2022/11/5 13:21
  */
-public class Main3 {
+public class OD_jizhan_juli {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

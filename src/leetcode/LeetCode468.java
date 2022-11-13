@@ -3,7 +3,7 @@ package leetcode;
 /**
  * leetcode 468. 验证IP地址
  */
-public class Main400 {
+public class LeetCode468 {
     public static void main(String[] args) {
         String str = "1.1.1.1.";
         String[] s  = str.split("\\.");

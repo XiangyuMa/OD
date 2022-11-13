@@ -4,10 +4,10 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 /**
- * 994. 腐烂的橘子
+ * LeetCode994. 腐烂的橘子
  *
  */
-public class Main7 {
+public class LeetCode994 {
     public static void main(String[] args) {
 
     }

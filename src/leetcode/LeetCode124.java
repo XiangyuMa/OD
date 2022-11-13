@@ -1,4 +1,4 @@
-package binaryTree;
+package leetcode;
 
 public class LeetCode124 {
 

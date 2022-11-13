@@ -9,7 +9,7 @@ import java.util.Deque;
 import java.util.List;
 
 
-public class Main5 {
+public class LeetCode93 {
 
     public List<String> restoreIpAddresses(String s) {
         int len = s.length();

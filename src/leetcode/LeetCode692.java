@@ -5,7 +5,7 @@ import java.util.*;
 /**
  * leetcode 692. 前K个高频单词
  */
-public class Main100 {
+public class LeetCode692 {
     public static void main(String[] args) {
 
     }

@@ -11,7 +11,7 @@ import java.util.*;
 //poll()：删除堆顶元素
 //peek()：返回位于堆顶的元素，但该元素并不出堆，还在堆中
 
-class Main4 {
+class LeetCode347 {
     public int[] topKFrequent(int[] nums, int k) {
         // 使用字典，统计每个元素出现的次数，元素为键，元素出现的次数为值
         HashMap<Integer,Integer> map = new HashMap();

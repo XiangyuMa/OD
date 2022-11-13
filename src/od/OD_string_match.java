@@ -1,4 +1,4 @@
-package leetcode;
+package od;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -6,11 +6,12 @@ import java.util.List;
 import java.util.Scanner;
 
 /**
- * @author :马翔宇
- * @description
+ * @author :OD机试第2题
+ * @description 一个content字符串中有几个word word中字符必须要匹配content 但顺序不需要一一对应
+ * 100% pass
  * @date: 2022/11/5 13:21
  */
-public class Main2 {
+public class OD_string_match {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String content = scanner.nextLine();

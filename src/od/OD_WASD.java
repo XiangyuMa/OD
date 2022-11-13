@@ -1,4 +1,4 @@
-package leetcode;
+package od;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -6,11 +6,12 @@ import java.util.List;
 import java.util.Scanner;
 
 /**
- * @author :马翔宇
- * @description
+ * @author :OD机试题第一题
+ * @description 题目大意：WASD为游戏控制的四个方向，如果一个字符串中WASD各个字符次数相同称之为
+ * 完美走位，问改变其中连续的一段字符使得成为完美走位最少要改动字符数
  * @date: 2022/11/5 13:21
  */
-public class Main1 {
+public class OD_WASD {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String str = scanner.nextLine();
