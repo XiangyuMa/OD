@@ -9,10 +9,6 @@ import java.util.Stack;
  * @date: 2022/10/20 16:31
  */
 public class LeetCode20 {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        scanner.close();
-    }
     public boolean isValid(String s) {
         if (s.length() % 2 ==1 ){
             return false;
