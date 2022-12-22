@@ -1,13 +1,18 @@
 package dp;
 
 import java.util.Arrays;
+import java.util.Random;
 
 /**
  * 动态规划类问题求解
  */
 public class Dp {
     public static void main(String[] args) {
+          System.out.println("hello world!");
 
+          for (int i=0;i < 100;i++) {
+            System.out.println(new Random(100).nextInt() *100);
+          }
     }
 
     /**
