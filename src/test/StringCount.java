@@ -17,7 +17,7 @@ public class StringCount {
         for(Map.Entry entry :map.entrySet()){
             list.add(entry);
         }
-        Collections.sort(list, Comparator.comparingInt(Map.Entry::getValue));
+        list.sort(Comparator.comparingInt(Map.Entry::getValue));
         for (Map.Entry<Character,Integer> entry:list){
             System.out.println("字符" + entry.getKey() +"出现" + entry.getValue() +"次");
         }
