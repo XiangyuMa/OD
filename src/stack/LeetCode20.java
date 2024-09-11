@@ -1,6 +1,5 @@
 package stack;
 
-import java.util.Scanner;
 import java.util.Stack;
 
 /**
@@ -33,10 +32,6 @@ public class LeetCode20 {
                 }
             }
         }
-        if(stack.empty()){
-            return true;
-        }else {
-            return false;
-        }
+        return stack.empty();
     }
 }
